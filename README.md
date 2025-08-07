@@ -14,11 +14,22 @@ A deep learning-based web application that detects plant diseases from leaf imag
 
 ---
 
-## 📁 Dataset
+## 📁 Dataset used for project
 - archive(2).zip
 - The dataset is divided into `train` and `valid` directories.  
 - Each class folder contains multiple images of diseased and healthy plant leaves.  
 - Total classes: **38**.  
+
+---
+
+## Requirements
+- streamlit
+- tensorflow
+- numpy
+- pillow
+- matplotlib
+- seaborn
+- ngrok
 
 ---
 
@@ -34,6 +45,17 @@ The CNN model consists of:
 
 ---
 
+## 🙋‍♀️ How It Works
+
+1. **Upload a leaf image** (`.jpg` / `.png`/`.jpeg`)
+2. The model processes the image and predicts the **disease class**
+3. The app displays:
+   - ✅ The **name of the disease**
+   - 📝 A **solution** specific to the plant disease
+4. If you want to print the predicted disease output, the **print option** is available
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology          | Description                        |
@@ -45,13 +67,20 @@ The CNN model consists of:
 | **Matplotlib/Seaborn** | Visualization of training metrics |
 | **OpenCV & PIL**    | Image processing libraries         |
 
+---
 
-## Requirements
-- streamlit
-- tensorflow
-- numpy
-- pillow
-- matplotlib
-- seaborn
-- ngrok
+## 🧮 Metrics Tracked
 
+- **Accuracy**  
+- **Precision**  
+- **Recall**  
+- **Loss**
+
+---
+
+## 💡 Future Improvements
+
+- 📷 Add **camera support** for mobile users  
+- 🎯 Improve model accuracy using **transfer learning**  
+- 🗣️ Add **voice-based disease diagnosis**  
+- 🌍 **Localize** solution text in regional languages
