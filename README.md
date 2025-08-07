@@ -46,12 +46,12 @@ The CNN model consists of:
 | **OpenCV & PIL**    | Image processing libraries         |
 
 
-
-streamlit
-tensorflow
-numpy
-pillow
-matplotlib
-seaborn
-ngrok
+## Requirements
+- streamlit
+- tensorflow
+- numpy
+- pillow
+- matplotlib
+- seaborn
+- ngrok
 
