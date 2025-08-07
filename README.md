@@ -1,6 +1,6 @@
 # 🌿 Plant-Disease-Detection-System-for-Sustainable-Agriculture 
 
-A deep learning-based web application that detects plant diseases from leaf images using a Convolutional Neural Network (CNN). Built with **TensorFlow**, **Streamlit**, and deployed using **Ngrok**, this project not only predicts the disease class but also provides detailed, actionable solutions for each plant disease.
+A deep learning-based web application that detects plant diseases from leaf images using a Convolutional Neural Network (CNN). Built with **TensorFlow**, **Streamlit**, and deployed using **Ngrok**, this project not only predicts the disease class but also provides actionable solutions for each plant disease.
 
 ---
 
