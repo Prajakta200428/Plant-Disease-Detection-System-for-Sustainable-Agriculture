@@ -15,7 +15,9 @@ A deep learning-based web application that detects plant diseases from leaf imag
 ---
 
 ## 📁 Dataset used for project
-- archive(2).zip
+Access the dataset used in this project below:
+- **Download link:**  [Kaggle: New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
+- To use this dataset, you'll need a Kaggle account. Once downloaded, extract the archive and upload the dataset on your the google drive.
 - The dataset is divided into `train` and `valid` directories.  
 - Each class folder contains multiple images of diseased and healthy plant leaves.  
 - Total classes: **38**.  
